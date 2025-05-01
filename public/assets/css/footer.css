@@ -1,0 +1,7 @@
+footer {
+    background-color: var(--couleur-foncee-texte);
+    color: white;
+    text-align: center;
+    padding: var(--spacing-thinnest);
+    margin-top: auto; 
+  }

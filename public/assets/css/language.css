@@ -1,0 +1,78 @@
+/* ----------------------------------------------
+Définition des styles de couleur et de rythme
+----------------------------------------------- */
+:root {
+    /* --- Couleurs principales --- */
+    --couleur-principale: #d9c6f2; /* violet */
+    --couleur-accent: #e7ff69; /* jaune lime */
+    --couleur-foncee-texte: #34334f;
+  
+    /* --- Variantes --- */
+    --couleur-principale-foncee: #9f8ac2;
+  
+    /* --- Couleurs complémentaires --- */
+    --couleur-complementaire-1: #f2c6d9;
+    --couleur-complementaire-2: #c6f2da;
+    --couleur-complementaire-3: #ffe2b0;
+  
+    /* --- États et interactions --- */
+    --couleur-hover: #bfa3e6;
+    --couleur-accent-hover: #d5ef56;
+    --couleur-focus: #7c6dae;
+    --couleur-erreur: #d94f4f;
+    --couleur-succes: #4fd97b;
+  
+    /* --- Police ---*/
+    --font-titre: "co-headline", sans-serif;
+    --font-titre-bold: "co-headline", sans-serif;
+    --font-text-regular: "co-text", sans-serif;
+    --font-text-bold: "co-text", sans-serif;
+  
+    /* --- Typographie ---*/
+    --font-miniature: 10px;
+    --font-shortest: 12px;
+    --font-shorter: 14px;
+    --font-short: 15px;
+    --font-current: 16px;
+    --font-tall: 21px;
+    --font-taller: 32px;
+    --font-tallest: 38px;
+  
+    /* --- Line-Height ---*/
+    --line-height-perfect: 1em;
+    --line-height-compressed: 1em;
+    --line-height-tightest: 1.26875em;
+    --line-height-tighter: 1.62875em;
+    --line-height-tight: 1.74285em;
+    --line-height-normal: 2.375em;
+    --line-height-loose: 3.6em;
+    --line-height-looser: 4.2em;
+    --line-height-loosest: 5em;
+  
+    /* --- Spacing ---*/
+    --spacing-pico: 0.1rem;
+    --spacing-nano: 0.3rem;
+    --spacing-micro: 0.5rem;
+    /*--- */
+    --spacing-thinnest: 1rem;
+    --spacing-thinner: 1.5rem;
+    --spacing-thin: 2rem;
+    --spacing-broad: 4rem;
+    --spacing-broader: 6rem;
+    --spacing-broadest: 8rem;
+    --spacing-large: 10rem;
+    --spacing-larger: 12rem;
+    --spacing-largest: 16rem;
+    /*--- */
+  
+    /* -- Border size --*/
+    --border-slimmest: 1px;
+    --border-slimmer: 2px;
+    --border-slim: 3px;
+  
+    /* -- Radius --*/
+    --radius-sharpest: 2px;
+    --radius-sharper: 3px;
+    --radius-sharp: 5px;
+  }
+  

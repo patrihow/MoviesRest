@@ -1,0 +1,12 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: var(--spacing-thinner);
+    }
+  }
