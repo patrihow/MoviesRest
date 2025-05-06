@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Ruta para buscar películas
+// Route pour rechercher des films
 app.get('/fetch=:id', async (req, res) => {
     const movieId = req.params.id;
     const url = `https://api.themoviedb.org/3/movie/${movieId}?api_key=${config.API_KEY}`;
@@ -22,12 +22,12 @@ app.get('/fetch=:id', async (req, res) => {
     }
 });
 
-// Ruta para ver la página HTML
+// Route pour afficher la page HTML
 app.get('/view', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Ruta para obtener datos de la película
+// Route pour obtenir les données du film
 app.get('/data=:id', (req, res) => {
     const filePath = `${__dirname}/${req.params.id}.json`;
     fs.readFile(filePath, 'utf8', (err, data) => {
@@ -38,5 +38,5 @@ app.get('/data=:id', (req, res) => {
 
 const PORT = config.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`Servidor corriendo en el puerto ${PORT}`);
+    console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
 });
