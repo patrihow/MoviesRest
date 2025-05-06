@@ -1,0 +1,35 @@
+#movie-data {
+  display: flex;
+  margin: var(--spacing-broad) 0; 
+}
+
+.movies-card {
+  background-color: #fff; 
+  border-radius: var(--radius-sharp); 
+  border: 1px solid #dfdfdf;
+  padding: var(--spacing-thin); 
+  width: 400px; 
+  transition: transform 0.2s; 
+}
+
+.movies-card:hover {
+  transform: scale(1.05); 
+}
+
+.movies-card img {
+  border-radius: var(--radius-sharp); 
+  width: 100%; 
+  height: auto; 
+}
+
+.movies-card h2 {
+  font-size: var(--font-tall); 
+  color: var(--couleur-foncee-texte); 
+  margin: var(--spacing-nano) 0; 
+}
+
+.movies-card p {
+  font-size: var(--font-short); 
+  color: var(--couleur-foncee-texte); 
+  margin: var(--spacing-nano) 0; 
+}

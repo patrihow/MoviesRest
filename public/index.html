@@ -21,22 +21,25 @@
   </head>
   <body>
     <header>
-        <h1>TMDB API Films</h1>
-    </header>
-    <main>
-
+      <h1>TMDB API Films</h1>
+  </header>
+  <main>
       <section class="container">
-        <h3>Recherche de Films</h3>
-        <div class="search-container">
-          <input type="text" id="movie-id" placeholder="Entrez l'ID du film" />
-          <button id="search-btn">Rechercher</button>
-        </div>
-        <div id="movie-data"></div>
+          <h3>Recherche de Films</h3>
+          <div class="search-container">
+              <input type="text" id="movie-id" placeholder="Entrez l'ID du film" />
+              <button id="search-btn">Rechercher</button>
+          </div>
+          <div id="movie-data">
+            <section class="movies-card">
+              Loading...
+            </section>
+            </div> 
       </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Patricia Bravo. Tous droits réservés.</p>
-    </footer>
-    <script src="script.js"></script>
+  </main>
+  <footer>
+      <p>&copy; 2025 Patricia Bravo. Tous droits réservés.</p>
+  </footer>
+  <script src="script.js"></script>
   </body>
 </html>
